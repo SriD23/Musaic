@@ -1,0 +1,153 @@
+#row {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 2%;
+}
+
+#login-content {
+    flex: 50%;
+}
+
+#login {
+    padding-left: 30%;
+    padding-top: 10%;
+}
+
+#login p {
+    margin-top: 5%;
+}
+
+#google {
+    padding-left: 30%;
+}
+
+#login-button {
+    margin-top: 30px;
+    color: white;
+    background-color: #8a2be2;
+    border: none;
+
+    border-radius: 3px;
+    width: 415px;
+    height: 35px;
+    cursor:pointer;
+}
+
+#register {
+    flex: 50%;
+}
+
+#register-content p {
+    margin-top: 5%;
+}
+
+#register-button {
+    margin-top: 30px;
+    color: white;
+    background-color: #8a2be2;
+    border: none;
+
+    border-radius: 3px;
+    width: 415px;
+    height: 35px;
+    cursor:pointer;
+}
+
+#conditions {
+    margin-top: 4%;
+}
+
+#error {
+    background-color: #de6c64;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+body{
+    background-image: url("../images/purplebackground2.jpeg");
+    background-size: cover;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color:white;
+    font-size: large;
+    font-weight:bold;
+    color: white !important;
+}
+
+
+.navbar-dark {
+    background-color: black;
+}
+
+.navbar-dark .navbar-nav>li>a {
+    color: #fff;
+    padding: 28px 17px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: black !important;
+    color: #ff00ff;
+}
+
+.nav .divider {
+    background-color: #d9dadc;
+    width: 1px;
+    height: 16px;
+    margin: 32px 17px;
+}
+
+.navbar-logo {
+    margin-right:500px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    max-width: 7%;
+    max-height: 7%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+    float: left;
+    padding-top:0px;
+}
+
+/* .nav-pic{
+	margin-top: 2000px;
+	padding-right: 1500px;
+
+} */
+
+.nav .img-banner {
+    width:150px;
+    height: auto;
+    margin: auto 5px;
+    float: left;
+}
+
+.nav #nav-pic
+{
+    font-size: 400%;
+    margin-top: 28px;
+    margin-bottom: 0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-right:550px;
+}
+
+.container
+{
+    padding-top: 0px;
+}
+
+#header {
+    margin-bottom: 10%;
+}
+
+.blacktext {
+    color: black !important;
+}

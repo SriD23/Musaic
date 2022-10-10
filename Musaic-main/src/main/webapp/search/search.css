@@ -1,0 +1,153 @@
+.slidecontainer {
+    width: 50%; /* Width of the outside container */
+}
+
+body {
+    color: white !important;
+}
+
+#header {
+    margin-bottom: 15%;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none; /* Override default CSS styles */
+    appearance: none;
+    width: 25%; /* Specified width*/
+    height: 15px; /* Specified height */
+    border-radius: 5px;
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    background:#8a2be2; /* Purple background */
+    width:25px; /* Set a specific slider handle width */
+    height:25px; /* Slider handle height */
+    border-radius:50%; /*makes slider circular*/
+    cursor:pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+body{
+    background-image: url("../images/purplebackground2.jpeg");
+    background-size: cover;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color:white;
+    font-size: large;
+    font-weight:bold;
+    line-height: 1.5;
+}
+/*.topofscreen{
+    display:flex;
+    justify-content:space-between;
+    text-decoration: none;
+}*/
+.searchbar{
+    display: flex;
+    margin: auto;
+    width: 15%;
+    padding: 10px;
+}
+
+.searchPage{
+    text-align: center;
+}
+
+.navbar-dark {
+    background-color: black;
+}
+
+.navbar-dark .navbar-nav>li>a {
+    color: #fff;
+    padding: 28px 17px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: black !important;
+    color: #ff00ff;
+}
+
+.nav .divider {
+    background-color: #d9dadc;
+    width: 1px;
+    height: 16px;
+    margin: 32px 17px;
+}
+
+.navbar-logo {
+    margin-right:500px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    max-width: 7%;
+    max-height: 7%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+    float: left;
+    padding-top:0px;
+}
+
+/* .nav-pic{
+	margin-top: 2000px;
+	padding-right: 1500px;
+
+} */
+
+.nav .img-banner {
+    width:150px;
+    height: auto;
+    margin: auto 5px;
+    float: left;
+}
+
+.nav #nav-pic
+{
+    font-size: 400%;
+    margin-top: 28px;
+    margin-bottom: 0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-right:550px;
+}
+
+.container
+{
+    padding-top: 0px;
+}
+
+select {
+    color: black !important;
+    background-color: white !important;
+}
+
+button {
+    background-color: blue;
+}
+
+.searchbardirect {
+    color: black !important;
+}
